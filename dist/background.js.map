@@ -1,0 +1,1 @@
+{"version":3,"file":"background.js","mappings":"AAAA","sources":["webpack://react-extension/./src/background/background.ts"],"sourcesContent":["chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {\n    console.log(\"Received message\", message);\n    sendResponse(\"Message received\");\n});\n"],"names":[],"sourceRoot":""}

@@ -1,0 +1,1 @@
+{"version":3,"file":"contentScript.js","mappings":"AAAA","sources":["webpack://react-extension/./src/contentScript/content.ts"],"sourcesContent":["console.log(\"content script is running\", document.body);\nchrome.runtime.sendMessage(\"Hello from content script\", (response) => {\n    console.log(\"Received response\", response);\n});\n"],"names":[],"sourceRoot":""}
